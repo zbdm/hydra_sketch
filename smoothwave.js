@@ -1,0 +1,5 @@
+shape(5,0.2,0.2).repeat(10,10).kaleid([3,18,1].smooth(50).fast(0.8))
+  .modulateScale(osc(14,-0.1,0).kaleid(3).scale(0.8),15,0.8)
+  .blend(o0,0.4)
+  .modulate(noise(3,0.3))
+  .out(o0)
